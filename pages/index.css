@@ -35,7 +35,7 @@
     height: 39px;
 }
 
-.nav__nav-list {
+.nav__links {
     display: flex;
     list-style: none;
     column-gap: 20px;

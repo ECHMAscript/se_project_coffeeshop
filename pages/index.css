@@ -4,6 +4,7 @@
     font-family: "Inter", Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
+    margin: auto;
 }
 
 .header {
@@ -158,6 +159,10 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+}
+
+.recipies__videos-iframe {
+    border: none;
 }
 
 .recipies__video-caption-right {

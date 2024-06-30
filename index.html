@@ -16,12 +16,50 @@
 <body>
 
     <div class="page">
-        <header class="header"></header>
+        <header class="header">
+            <nav class="nav">
+                <img src="images/logo_coffeeshop_dark.svg" alt="" class="nav__logo">
+                <ul class="nav__nav-list">
+                    <li class="nav__nav-list-item"><a class="nav__link" href="#recipies">Recipies</a></li>
+                    <li class="nav__nav-list-item"><a class="nav__link" href="#reservation">Book a table</a></li>
+                    <li class="nav__nav-list-item"><a class="nav__link" href="#menu">Menu</a></li>
+                    <li class="nav__nav-list-item"><a class="nav__link" href="#about">Contacts</a></li>
+                </ul>
+            </nav>
+            <h1 class="header__title"><span class="header__span-accent">Specialty coffee</span><br>in the Triple Peaks Library</h1>
+            <p class="header__description">Welcome to our study zone! We've got the coffee to energize you
+                and the cozy vibes to help you get creative.</p>
+            <img src="images/inside_coffee_shop.png" alt="An image of the inside of the coffee shop." class="header__image">
+            <div class="header__footer">
+                <p class="header__footer-paragraph">Hours:</p>
+                <p class="header__footer-paragraph">Monday - Friday (10:00 - 19:00)</p>
+                <p class="header__footer-paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+                <p class="header__footer-paragraph">200 Success Avenue, The Town of Triple Peaks</p>
+            </div>
+        </header>
         <main class="content">
-            <section class="recipies"></section>
-            <section class="reservation"></section>
-            <section class="menu"></section>
-            <section class="about"></section>
+            <section id="recipies" class="recipies">
+                <h1 class="recipies__title">Recipies</h1>
+                <p class="recipies__subtitle">
+                    Check out some recipes we've collected for your home-brewing convenience:
+                </p>
+                    <div class="recipies__videos">
+
+                        <figure>
+                            <iframe class="recipies__videos-iframe" width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=k2Jol6MA3YgSwoms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption class="recipies__video-caption">Aeropress recipe <span class="recipies__video-caption-right">~5 min</span></figcaption>
+                        </figure>
+                        <figure>
+                            <iframe class="recipies__videos-iframe" width="560" height="315" src="https://www.youtube.com/embed/st571DYYTR8?si=B-BGWVFYcbpow25O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption class="recipies__video-caption">French press recipe <span class="recipies__video-caption-right">~15 min</span></figcaption>
+                        </figure>
+
+                    </div>
+
+            </section>
+            <section id="reservation" class="reservation"></section>
+            <section id="menu" class="menu"></section>
+            <section id="about" class="about"></section>
         </main>
         <footer class="footer"></footer>
     </div>

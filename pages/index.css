@@ -45,7 +45,7 @@
     font-size: 16px;
 }
 
-.nav__link-anchor {
+.nav__link {
     color: inherit;
     text-decoration: none;
 }
@@ -161,7 +161,7 @@
     line-height: 30px;
 }
 
-.recipes__videos-iframe {
+.recipes__iframe {
     border: none;
 }
 

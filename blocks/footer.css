@@ -9,15 +9,17 @@
 
 .footer__content {
     display: flex;
-    flex-direction: column;
     position: relative;
-    align-items: flex-end;
+    justify-content: flex-end;
+    
 }
 
 .footer__logo {
-    position: absolute;
-    left: 0;
+    width: 105px;
+    height: 39px;
+    margin-right: auto;
 }
+
 
 .footer__social-heading {
     margin-top: 0;
@@ -59,12 +61,16 @@
 
 .footer__social-icon {
     margin-right: 10px;
+    margin-bottom: 0;
     height: 16px;
     width: 16px;
 }
 
 .footer__copyright {
     margin-top: 108px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
     font-family: "Inter", Arial, sans-serif;
     font-weight: normal;
     font-size: 16px;

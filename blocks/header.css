@@ -11,6 +11,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
 
 
@@ -39,11 +40,11 @@
 
 .header__description {
     max-width: 683px;
-    margin-left: 80px;
+    margin: 0 0 0 80px;
     font-family: "Noto Serif", 'Times New Roman', serif;
     font-size: 20px;
     line-height: 30px;
-    margin-bottom: 0;
+
 }
 
 .header__image {
@@ -52,6 +53,7 @@
     width: 646px;
     height: 568px;
     top: 126px;
+    z-index: 1;
 }
 
 .header__footer {
